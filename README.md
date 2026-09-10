@@ -1,7 +1,7 @@
-# EvoPath — Evolutionary Agent Navigation
+# EvoPath : Evolutionary Agent Navigation
 
 A population of agents learns to navigate an obstacle course using a genetic
-algorithm. No neural network, no training data, no machine-learning library —
+algorithm. No neural network, no training data, no machine-learning library,
 just selection, crossover and mutation applied to sequences of movement
 instructions.
 
@@ -187,7 +187,7 @@ Average fitness rising from 0.018 to over 2.0 is the important number: the
 
 | Generation 2 | Generation 14 | Solved |
 |---|---|---|
-| ![gen 2](docs/gen2.png) | ![gen 14](docs/gen14.png) | ![solved](docs/solved.png) |
+| ![gen 2](EvoPath-Evolutionary_Agent_Navigation/docs/gen2.png) | ![gen 14](EvoPath-Evolutionary_Agent_Navigation/docs/gen14.png) | ![solved](EvoPath-Evolutionary_Agent_Navigation/docs/solved.png) |
 
 ### Experiment 1 — genome length was the binding constraint
 
@@ -221,7 +221,7 @@ At **0.000**, no new genes can appear. Selection grinds the pool down to
 variations on one mediocre route; diversity falls to 0.42 and best fitness
 freezes for 14+ generations. This is premature convergence.
 
-![stalled at zero mutation](docs/stalled.png)
+![stalled at zero mutation](EvoPath-Evolutionary_Agent_Navigation/docs/stalled.png)
 
 At **0.120**, diversity is a maximal 1.00 and the run *still* fails — best
 fitness stuck at 0.083 with no improvement for 18 generations. Mutation is
@@ -229,7 +229,7 @@ destroying good inherited sequences faster than selection can accumulate them,
 so the search degenerates into random search. High diversity is not the
 objective; it is only a means.
 
-![unstable at high mutation](docs/unstable.png)
+![unstable at high mutation](EvoPath-Evolutionary_Agent_Navigationdocs/unstable.png)
 
 This is the exploration/exploitation trade-off, measured rather than asserted.
 
