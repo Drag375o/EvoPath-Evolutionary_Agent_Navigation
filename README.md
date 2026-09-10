@@ -7,8 +7,7 @@ instructions.
 
 Built with Python and Pygame.
 
-![Best path found](EvoPath-Evolutionary_Agent_Navigation
-/docs/solved.png)
+![Best path found](EvoPath-Evolutionary_Agent_Navigation/docs/solved.png)
 
 ---
 
